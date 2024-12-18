@@ -38,7 +38,7 @@ nav {
 nav a {  
     color: #ecf0f1;  
     text-decoration: none;  
-    margin: 0 20px;  
+    margin: 0;  
     font-size: 1.1rem;  
     font-weight: 500;  
 }  
