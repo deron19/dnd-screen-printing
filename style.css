@@ -1,12 +1,13 @@
 /* Global Styles */  
 body {  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-    margin: 0;  
-    padding: 0;  
-    box-sizing: border-box;  
-    background-color: #f8f9fa;  
-    color: #495057;  
-    overflow-x: hidden;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* Menghapus margin bawaan browser */
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #495057;
+    overflow-x: hidden;
+    height: 100%; /* Memastikan tinggi penuh */
 }  
 
 /* Mengatur latar belakang untuk memenuhi seluruh halaman */  
@@ -18,12 +19,11 @@ html, body {
 header {  
     background-color: #142a41; /* Warna biru header */
     color: #ecf0f1; /* Warna teks */
-    padding: 0; /* Padding dalam header */
+    padding: 20px; /* Menambahkan padding untuk header */
     text-align: center; /* Teks di tengah */
     border-bottom: 4px solid #e74c3c; /* Garis bawah header */
-    margin: 0; /* Menghapus margin agar menempel dengan layar */
-    width: 100vw; /* Memastikan header selalu selebar viewport */
-    box-sizing: border-box; /* Padding tetap dalam ukuran elemen */
+    margin: 0; /* Menghapus margin luar */
+    width: 100vw; /* Memastikan selebar layar */
 }  
 
 /* Navigation */  
@@ -32,8 +32,8 @@ nav {
     padding: 0;  
     display: flex;  
     justify-content: center;  
-    margin: 0 ;  
-    width: 100vw;
+    margin: 0;  
+    width: 100vw;  
 }  
 
 nav a {  
@@ -41,8 +41,6 @@ nav a {
     text-decoration: none;  
     margin: 0 20px;  
     font-size: 1.1rem;  
-    font-weight: 0;  
-   
 }  
 
 nav a:hover {  
@@ -52,10 +50,15 @@ nav a:hover {
 /* Beranda */  
 .hero {  
     text-align: center;  
-    padding: 50px 20px;  
-    margin: 0 20px;   
+    padding: 20px 20px; /* Kurangi padding atas dan bawah */
+    margin: 10px 20px; /* Atur margin untuk mendekatkan dengan elemen lain */
     background-color: #e9ecef;   
     border-radius: 10px;  
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: column; /* Mengatur arah kolom */
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: center; /* Memusatkan secara horizontal */
+    height: auto; /* Ubah menjadi auto untuk menyesuaikan dengan konten */
 }  
 
 /* Gallery */  
@@ -132,8 +135,8 @@ nav a:hover {
 }  
 
 .social-box:nth-child(2) {  
-    background-color: rgba(225, 48, 108, 0.9); /* Background Instagram transparan dengan warna khas Instagram */  
-    border: none; /* Menghilangkan border */  
+    background-color: rgba(225, 48, 108, 0.9);  
+    border: none;  
 }  
 
 .btn-wa, .btn-ig {  
@@ -182,4 +185,4 @@ footer {
 /* Reset untuk menghilangkan garis bawah */  
 a {  
     text-decoration: none;  
-}
+}  
