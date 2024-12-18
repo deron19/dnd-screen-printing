@@ -42,6 +42,7 @@ nav a {
     margin: 0 20px;  
     font-size: 1.1rem;  
     font-weight: 0;  
+    width: 100vw;
 }  
 
 nav a:hover {  
