@@ -50,15 +50,11 @@ nav a:hover {
 /* Beranda */  
 .hero {  
     text-align: center;  
-    padding: 20px 20px; /* Kurangi padding atas dan bawah */
-    margin: 10px 20px; /* Atur margin untuk mendekatkan dengan elemen lain */
+    padding: 20px 0; /* Padding atas dan bawah */
+    margin: 0; /* Hapus margin untuk membuatnya penuh */
     background-color: #e9ecef;   
-    border-radius: 10px;  
-    display: flex; /* Menggunakan flexbox */
-    flex-direction: column; /* Mengatur arah kolom */
-    justify-content: center; /* Memusatkan secara vertikal */
-    align-items: center; /* Memusatkan secara horizontal */
-    height: auto; /* Ubah menjadi auto untuk menyesuaikan dengan konten */
+    border-radius: 0; /* Sudut tajam */
+    width: 100%; /* Memastikan lebar penuh */
 }  
 
 /* Gallery */  
