@@ -29,10 +29,10 @@ header {
 /* Navigation */  
 nav {  
     background-color: #34495e;  
-    padding: 15px;  
+    padding: 0;  
     display: flex;  
     justify-content: center;  
-    margin: 0 20px;  
+    margin: 0 ;  
 }  
 
 nav a {  
