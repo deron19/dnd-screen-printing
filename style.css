@@ -16,12 +16,14 @@ html, body {
 
 /* Header */  
 header {  
-    background-color: #142a41;  
-    color: #ecf0f1;  
-    padding: 30px;  
-    text-align: center;  
-    border-bottom: 4px solid #e74c3c;  
-    margin: 0 20px;  
+    background-color: #142a41; /* Warna biru header */
+    color: #ecf0f1; /* Warna teks */
+    padding: 0; /* Padding dalam header */
+    text-align: center; /* Teks di tengah */
+    border-bottom: 4px solid #e74c3c; /* Garis bawah header */
+    margin: 0; /* Menghapus margin agar menempel dengan layar */
+    width: 100vw; /* Memastikan header selalu selebar viewport */
+    box-sizing: border-box; /* Padding tetap dalam ukuran elemen */
 }  
 
 /* Navigation */  
